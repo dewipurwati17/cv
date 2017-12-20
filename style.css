@@ -1,0 +1,218 @@
+.body {
+    background-color: #317E8E;
+}
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #FF8080;
+    color: #ffffff;
+    padding: 3px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.content2, .content3, .content4 {
+    /*display: none;*/
+}
+
+.footer {
+    background-color: #FF8080;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.header h1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.junior {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nama {
+    font-weight: bold;
+}
+
+.tentang {
+    font-size: 14px;
+    margin-top: 12px;
+	
+}
+
+.alamat {
+    font-size: 16px;
+    line-height: 10px;
+    margin-top: 22px;
+	
+}
+
+.content1 {
+    margin-top: 7em;
+}
+
+.col-m-1 {width: 8.33%;}
+.col-m-2 {width: 16.66%;}
+.col-m-3 {width: 25%;}
+.col-m-4 {width: 33.33%;}
+.col-m-5 {width: 41.66%;}
+.col-m-6 {width: 50%;}
+.col-m-7 {width: 58.33%;}
+.col-m-8 {width: 66.66%;}
+.col-m-9 {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+@media only screen and (max-width: 425px){
+    .tentang {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .alamat {
+        font-size: 12px;
+    }
+
+    .judul {
+        font-size: 18px;
+		color: #000000;
+		text-align: center;
+    }
+
+    .content1 {
+        margin-top: 0;
+    }
+
+    .col-t-s {
+       /* margin-left: 18.3em;
+        position: relative;
+        margin-top: -35px;*/
+    }
+    .nama {
+        font-size: 14px;
+        font-weight: bold;
+		color: #ffffff;
+    }
+    .junior {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .title-job {
+        font-size: 15px;
+    }
+
+    .content2 {
+        font-size: 12px;
+    }
+    .tahun-full {
+        display: none;
+    }
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+}
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .tahun {
+        display: none;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #ffffff;
+}
+
+.img-icon {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.fa-icon {
+    width: 30px;
+}
+
+.bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+    margin: 0 auto;
+}
+
+.btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
